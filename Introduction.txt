@@ -1,0 +1,4 @@
+Python is a dynamically typed language.  In dynamically typed languages, type checking takes place at runtime or execution time. Some examples of programming languages that belong to this category are Python, JavaScript, Lisp, PHP, Ruby, Perl, Lua, and Tcl.
+Guido von Rossum - 1991
+Python is an interpreted language.
+
