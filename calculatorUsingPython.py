@@ -14,10 +14,9 @@ a = int(input())
 print("Enter second operand \n")
 b = int(input())
 # input(b)
-print("Enter second operator \n")
+print("Enter operator \n")
 c = str(input())
 # input(c)
-
 if(c == "+"):
     print(a+b)
 
@@ -43,3 +42,20 @@ if(c == "**"):
 
 
 
+# input() converts everything into string. We need to typecast it before using it.
+
+"""
+python 2
+-> raw_input() - it will take any type of data and returns it as string value
+-> input() - it will take any type of data and treat it accordingly won't change
+
+to make raw_input() behave like input() we write eval(raw_input)
+""" 
+
+# n = raw_input() this does not work in python 3
+
+"""
+python 3
+-> input() - it will behave like raw_input from python2
+so we use eval(input())
+"""
